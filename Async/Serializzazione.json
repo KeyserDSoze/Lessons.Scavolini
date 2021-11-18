@@ -1,0 +1,10 @@
+[{
+	"Name": "abcaceac",
+	"Normalizations": ["ab", "ca", "ce", "ac"]
+}, {
+	"Name": "dide",
+	"Normalizations": ["di", "de"]
+}, {
+	"Name": "fafefi",
+	"Normalizations": ["fa", "fe", "fi"]
+}]
