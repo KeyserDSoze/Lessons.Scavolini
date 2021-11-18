@@ -1,0 +1,4 @@
+﻿Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+Scaffold-DbContext "Server=tcp:{insertserver};Initial Catalog=scavolini;Persist Security Info=True;User ID={insertusername};Password={insertpasswordhere};MultipleActiveResultSets=True;Connection Timeout=30;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Tables Comuni,Labels,SuperLabels -Context "ScavoliniNewContext" -DataAnnotations -Project Scavolini.Database -Verbose -Force
